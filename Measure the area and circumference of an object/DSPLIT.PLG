@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DSplit - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\Users\Tjjman\AppData\Local\Temp\RSPAEAA.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/DSplit.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\Users\Tjjman\Desktop\标识物体测量面积周长\JisuanProcessDib.cpp"
+]
+Creating command line "cl.exe @D:\Users\Tjjman\AppData\Local\Temp\RSPAEAA.tmp" 
+Creating temporary file "D:\Users\Tjjman\AppData\Local\Temp\RSPAEAB.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Debug/DSplit.pdb" /debug /machine:I386 /out:"Debug/DSplit.exe" 
+".\Debug\Cdib.obj"
+".\Debug\DELSMALL.obj"
+".\Debug\DSplit.obj"
+".\Debug\DSplitDoc.obj"
+".\Debug\DSplitView.obj"
+".\Debug\DynSplitterWnd.obj"
+".\Debug\DynSplitView2.obj"
+".\Debug\JisuanProcessDib.obj"
+".\Debug\LINEDLG.obj"
+".\Debug\MainFrm.obj"
+".\Debug\SquareDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\YuZhi.obj"
+".\Debug\DSplit.res"
+]
+Creating command line "link.exe @D:\Users\Tjjman\AppData\Local\Temp\RSPAEAB.tmp"
+<h3>Output Window</h3>
+Compiling...
+JisuanProcessDib.cpp
+Linking...
+Creating temporary file "D:\Users\Tjjman\AppData\Local\Temp\RSPB070.tmp" with contents
+[
+/nologo /o"Debug/DSplit.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\Cdib.sbr"
+".\Debug\DELSMALL.sbr"
+".\Debug\DSplit.sbr"
+".\Debug\DSplitDoc.sbr"
+".\Debug\DSplitView.sbr"
+".\Debug\DynSplitterWnd.sbr"
+".\Debug\DynSplitView2.sbr"
+".\Debug\JisuanProcessDib.sbr"
+".\Debug\LINEDLG.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\SquareDlg.sbr"
+".\Debug\YuZhi.sbr"]
+Creating command line "bscmake.exe @D:\Users\Tjjman\AppData\Local\Temp\RSPB070.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DSplit.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
